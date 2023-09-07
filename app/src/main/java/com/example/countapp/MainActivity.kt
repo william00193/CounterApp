@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
             tv1.text = plus.toString()
         }
 
-        //OnClick listener for Increment Button
+        //OnClick listener for Reset Button
         reset.setOnClickListener(){
 
           tv1.text = "0"
